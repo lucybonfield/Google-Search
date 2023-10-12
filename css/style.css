@@ -1,0 +1,22 @@
+.searchBar {
+    border-radius: 25px;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+} 
+
+.submitButton {
+    padding: 10px;
+}
+
+form {
+    text-align: center;
+    padding-top: 300px;
+}
+
+a {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
