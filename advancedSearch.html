@@ -5,12 +5,50 @@
         <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
-        <a href="index.html">Search</a>
-        <a href="advancedSearch.html">Advanced Search</a>
-        <form action="https://www.google.com/search">
-            <input type="text" class="searchBar" name="q">
-            <br><br>
-            <input type="submit" class="submitButton" value="Google Search">
-        </form>
+        <ul class="navbar">
+            <li><a href="index.html" class="listItem">Google</a></li>
+        </ul>
+        <h1 class="advancedSearchHeading">Advanced Search</h1>
+        <div class="line"></div>
+        <div class="advanced">
+            <h2 class="subtitle">Find pages with...</h2>
+            <form action="https://www.google.com/search">
+                <div class="row-input">
+                    <div class="left">
+                        <p>all these words:</p>
+                    </div>
+                    <div class="right">
+                        <input type="text" class="inputBar" name="q">
+                    </div>
+                </div>
+                <div class="row-input">
+                    <div class="left">
+                        <p>this exact word or phrase:</p>
+                    </div>
+                    <div class="right">
+                        <input type="text" class="inputBar" name="as_epq">
+                    </div>
+                </div>
+                <div class="row-input">
+                    <div class="left">
+                        <p>any of these words:</p>
+                    </div>
+                    <div class="right">
+                        <input type="text" class="inputBar" name="as_oq">
+                    </div>
+                </div>
+                <div class="row-input">
+                    <div class="left">
+                        <p>none of these words:</p>
+                    </div>
+                    <div class="right">
+                        <input type="text" class="inputBar" name="as_eq">
+                    </div>
+                </div>
+                <div class="buttonDiv">
+                    <input type="submit" value="Advanced Search" class="submitBtn advancedBtn"
+                </div>
+            </form>
+        </div>
     </body>
 </html>

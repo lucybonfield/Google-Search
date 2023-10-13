@@ -5,12 +5,20 @@
         <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
-        <a href="index.html">Search</a>
-        <a href="advancedSearch.html">Advanced Search</a>
-        <form action="https://www.google.com/search">
+        <ul class="navbar">
+            <li><a href="index.html" class="listItem">Google</a></li>
+        </ul>
+        <div class="center">
+            <img src="images/google-images-logo.png" class="logo" alt="Google images logo">
+        </div>
+            <form action="https://www.google.com/search">
+            <input type="hidden" name="tbm" value="isch">
             <input type="text" class="searchBar" name="q">
-            <br><br>
-            <input type="submit" class="submitButton" value="Google Search">
-        </form>
+            <div class="center">
+                <input type="submit" class="submitBtn" value="Image Search">
+            </div>
+            </form>
+        
+        
     </body>
 </html>
